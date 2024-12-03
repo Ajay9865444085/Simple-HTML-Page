@@ -1,0 +1,116 @@
+* {box-sizing: border-box;}
+body {
+  margin: 0;}
+ 
+ .navbar{
+  list-style-type: none;
+  margin-bottom: 5px; 
+  margin: 0px;
+  padding-left: 70px;
+  overflow: hidden;
+   background-color: #333;
+  text-decoration: none; 
+
+
+} 
+li{
+    float: left; 
+
+} 
+li a , .dropbtn {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none; 
+    
+} 
+.active{
+    background-color: black;
+} 
+li a:hover {
+    background-color: black;
+}   
+
+li.dropdown {
+    display: inline-block;
+  }
+  
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+.signin-container{
+  float: right;  
+  margin-right: 100px;
+} 
+.signin-container input[type=text]{
+  padding: 8px ; 
+  margin: 8px 0px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+} 
+.signin-container input[type=submit]{
+  background-color:lightgray; 
+  padding: 8px;  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  padding-right: 15px;
+}
+.content{
+  background-color: rgb(240, 240, 240);  
+  margin:30px 200px 100px 200px ; 
+  padding: 40px 100px 40px;
+  border:#f9f9f9;   
+  
+}
+.content h1{
+  font-size: 70px; 
+
+} 
+.content  p{
+  line-height: 1.8;
+} 
+.content button{
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    background-color: rgb(77, 77, 241); 
+    color: white; 
+    padding: 14px; 
+    font-size: medium;
+} 
+.container{
+  display: flex; 
+  margin-left: 100px;
+  margin-right: 100px;
+} 
+.container button{
+  padding: 8px; 
+  background-color: rgb(236, 234, 234); 
+  border: #f1f1f1;
+  border-radius: 4px;
+}
+.para{
+  margin-left: 100px; 
+  margin-top: 50px;
+}
